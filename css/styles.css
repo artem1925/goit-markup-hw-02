@@ -79,7 +79,6 @@ ol {
 .block-1 {
   background-color: #2e2f42;
   width: 1440px;
-  height: 600px;
 }
 .button {
   background: #4d5ae5;
@@ -132,7 +131,7 @@ ol {
   text-align: center;
   color: #2e2f42;
 }
-.position {
+.positions {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
