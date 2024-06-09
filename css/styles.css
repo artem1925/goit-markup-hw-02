@@ -56,6 +56,12 @@ ol {
 .menu-nav-list:active {
   color: #404bbf;
 }
+.menu-nav-list:focus {
+  color: #404bbf;
+}
+.adress {
+  font-style: normal;
+}
 .adress-nav-list {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -66,10 +72,13 @@ ol {
 }
 .adress-nav-list:hover {
   color: #404bbf;
-
-  /*main page*/
-  /*block 1*/
 }
+.adress-nav-list:focus {
+  color: #404bbf;
+}
+
+/*main page*/
+/*block 1*/
 .h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
