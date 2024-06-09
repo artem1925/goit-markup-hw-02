@@ -1,5 +1,7 @@
 body {
   background: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 /* Скидання підкреслення для посилань */
