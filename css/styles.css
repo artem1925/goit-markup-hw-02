@@ -94,13 +94,11 @@ ol {
 .button {
   background: #4d5ae5;
   color: #fff;
-  .button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-  }
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button:hover {
   background: #404bbf;
@@ -139,6 +137,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .name {
   font-family: "Roboto", sans-serif;
