@@ -103,6 +103,9 @@ ol {
 .button:hover {
   background: #404bbf;
 }
+.button:focus {
+  background: #404bbf;
+}
 /*block 2*/
 /*list of advantages*/
 .advantage {
@@ -167,6 +170,7 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .project-card {
