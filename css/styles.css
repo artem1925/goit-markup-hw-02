@@ -82,11 +82,6 @@ ol {
   height: 600px;
 }
 .button {
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
 }
@@ -95,11 +90,6 @@ ol {
 }
 /*block 2*/
 /*list of advantages*/
-ul {
-  display: flex;
-  flex-direction: row; /* Змінюємо напрямок на горизонтальний */
-  justify-content: space-between; /* Рівномірно розподіляємо елементи по ширині */
-}
 .advantage {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -120,22 +110,9 @@ ul {
 /*our team*/
 .block-3 {
   background: #f4f4fd;
-  width: 1440px;
-  height: 732px;
-}
-.block-3 ul {
-  display: flex;
-  flex-direction: row; /* Змінюємо напрямок на горизонтальний */
-  justify-content: space-between; /* Рівномірно розподіляємо елементи по ширині */
 }
 .box-model {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
 }
 .team {
   font-family: "Roboto", sans-serif;
@@ -166,10 +143,6 @@ ul {
 }
 /*block-4*/
 /*portfolio*/
-.block-4 {
-  width: 1128px;
-  height: 1000px;
-}
 .portfolio {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -179,17 +152,8 @@ ul {
   text-align: center;
   color: #2e2f42;
 }
-.row-1 {
-  width: 1128px;
-  height: 420px;
-}
-.row-2 {
-  width: 1128px;
-  height: 420px;
-}
+
 .project-card {
-  width: 360px;
-  height: 420px;
   background: #fff;
 }
 .products {
@@ -211,8 +175,6 @@ ul {
 /*foter*/
 /*logo*/
 .footer-box {
-  width: 1440px;
-  height: 312px;
   background: #2e2f42;
 }
 .logof {
